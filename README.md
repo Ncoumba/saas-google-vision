@@ -87,6 +87,10 @@ The deployed app uses the App Engine service account through managed credentials
 
 On November 12, 2026, version `vision-20261112-01` was deployed and assigned 100% of public traffic. The local app, the deployed version URL, and the final public URL all passed an image-upload test with HTTP 200.
 
+The results page for `wakeupcat.jpg`:
+
+![Google Cloud Vision results for wakeupcat.jpg showing detected labels and confidence scores](docs/images/vision-results.png)
+
 Using Google's [sample cat image](https://storage.googleapis.com/cloud-samples-data/vision/label/wakeupcat.jpg), all three returned labels including:
 
 | Label | Confidence |
